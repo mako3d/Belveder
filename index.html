@@ -9,6 +9,7 @@
     <script src="TemplateData/UnityProgress.javascript"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
+         UnityLoader.compatibilityCheck=function(e,t,r){t();};
         var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Luggo.json", {onProgress: UnityProgress});
     </script>
 </head>
