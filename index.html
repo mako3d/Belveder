@@ -12,14 +12,20 @@
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Luggo.json", {onProgress: UnityProgress});
     </script>
   </head>
+
+
   <body>
-    <div class="webgl-content">
+    <div class="webgl-content" style="border:4px solid black">
       <div id="unityContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">Positivo</div>
+      <div class="footer" style="border:4px solid red">
+        <div class="webgl-logo" style="border:4px solid green"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)" style="border:4px solid blue"></div>
+        <div class="title" style="border:4px solid orange">Positivo</div>
       </div>
     </div>
+
+
   </body>
+
+
 </html>
