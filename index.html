@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-
-  <body style= * {
-  margin: 0;
-  padding: 0;
-}
-
-canvas {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}>
-
-
-}
-
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Positivo</title>
@@ -27,13 +12,14 @@ canvas {
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Luggo.json", {onProgress: UnityProgress});
     </script>
   </head>
-
-
-	<body style="margin:0; overflow:hidden;">
-		<div id="unityContainer"></div>
-
-
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">Positivo</div>
+      </div>
+    </div>
   </body>
-
-
 </html>
