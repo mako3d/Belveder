@@ -1,7 +1,7 @@
 {
 "companyName": "DefaultCompany",
 "productName": "Positivo",
-"productVersion": "0.1",
+"productVersion": "1.0",
 "dataUrl": "Luggo.data.unityweb",
 "wasmCodeUrl": "Luggo.wasm.code.unityweb",
 "wasmFrameworkUrl": "Luggo.wasm.framework.unityweb",
