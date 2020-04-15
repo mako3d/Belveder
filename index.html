@@ -3,29 +3,21 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Positivo</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="TemplateData/UnityProgress.javascript"></script>
     <script src="Build/7b42daf65c72459b979977179f61532b.js"></script>
     <script>
-        window.UnityLoader = window.UnityLoader || {
-            Error: {}, instantiate: function () {
-            }
-        };
-        window.buildPath = "Build/2bcb4bdbd8454b659c0f7531a1a0d465.json";
-        window.gameInstance = null;
-        if (!/UNITY_WEBGL_BUILD_URL/.test(buildPath)) {
-            window.gameInstance = UnityLoader.instantiate("gameContainer", buildPath, {onProgress: UnityProgress});
-        }
-
+		 UnityLoader.compatibilityCheck=function(e,t,r){t();};
+        var gameInstance = UnityLoader.instantiate("gameContainer", "Build/8c0ebca58911676b705246b67169d8fd.json", {onProgress: UnityProgress});
     </script>
 </head>
-<body style="height:100%;">
-<div style="display: flex; align-items: center; justify-content: center; height: 100%;">
-    <div class="webgl-content">
-        <div id="gameContainer" style="width: 375px; height: 635px"></div>
-    </div>
+<body>
+<div class="webgl-content">
+    <div id="gameContainer" style="width: 960px; height: 600px"></div>
 </div>
+
+<script src="TemplateData/responsive.javascript"></script>
 </body>
+</html>
