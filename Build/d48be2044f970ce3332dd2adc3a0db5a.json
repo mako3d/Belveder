@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Positivo",
+"productVersion": "0.1",
+"dataUrl": "6aac07aebf2121f0c701418aa33954ff.unityweb",
+"wasmCodeUrl": "8566fd5e600e3d519a76f801ee5015c8.unityweb",
+"wasmFrameworkUrl": "19e7b62bfeb18d71a3cfeac77654e263.unityweb",
+"graphicsAPI": ["WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.0f1"
+}
